@@ -77,7 +77,6 @@ Additional external resources (such as tutorials and technical articles) were co
 - Routers VS switches in a minute: https://www.cisco.com/site/us/en/learn/topics/small-business/network-switch-vs-router.html
 - Subnet masks: https://www.youtube.com/watch?v=s_Ntt6eTn94&list=PLCXqoZAc8-tzD5N5oCyIyEcMg_NDs6o7C
 - Default gateway explained in a minute in Spanish: https://www.youtube.com/shorts/RVxJoZM1jsQ
-- A very useful NetPractice Tutorial: https://www.youtube.com/watch?v=pwjAyiscts8&t=94s
 
 During the development of this project, AI was used as a learning support tool, mainly to:
 

@@ -13,15 +13,15 @@ To complete the exercises, you need to understand the following concepts:
 - **IP address**: Every device on a network has a unique IP address; four numbers between 0 and 255 separated by dots (for example: 192.168.1.10)
 - **Subnet mask**: Tells you which part of the IP identifies the network and which part identifies the device. Two devices can only communicate directly if they are on the same network (same mask, same IP range).
 
-| Mask | CIDR | Block size | Usable hosts | Range example |
-|---|---|---|---|---|
-| 255.255.255.0 | /24 | 256 IPs | 254 | .0 → .255 |
-| 255.255.255.128 | /25 | 128 IPs | 126 | .0 → .127 / .128 → .255 |
-| 255.255.255.192 | /26 | 64 IPs | 62 | .0 → .63 / .64 → .127 / ... |
-| 255.255.255.224 | /27 | 32 IPs | 30 | .0 → .31 / .32 → .63 / ... |
-| 255.255.255.240 | /28 | 16 IPs | 14 | .0 → .15 / .16 → .31 / ... |
-| 255.255.255.248 | /29 | 8 IPs | 6 | .0 → .7 / .8 → .15 / ... |
-| 255.255.255.252 | /30 | 4 IPs | 2 | .0 → .3 / .4 → .7 / ... |
+    | Mask | CIDR | Block size | Usable hosts | Range example |
+    |---|---|---|---|---|
+    | 255.255.255.0 | /24 | 256 IPs | 254 | .0 → .255 |
+    | 255.255.255.128 | /25 | 128 IPs | 126 | .0 → .127 / .128 → .255 |
+    | 255.255.255.192 | /26 | 64 IPs | 62 | .0 → .63 / .64 → .127 / ... |
+    | 255.255.255.224 | /27 | 32 IPs | 30 | .0 → .31 / .32 → .63 / ... |
+    | 255.255.255.240 | /28 | 16 IPs | 14 | .0 → .15 / .16 → .31 / ... |
+    | 255.255.255.248 | /29 | 8 IPs | 6 | .0 → .7 / .8 → .15 / ... |
+    | 255.255.255.252 | /30 | 4 IPs | 2 | .0 → .3 / .4 → .7 / ... |
 
 - **Default gateway**: When a device wants to send data to another network, it doesn't know how to get there by itself. It passes the data to the gateway (the router's IP on its local network), which takes care of forwarding it.
 - **Router**: A device that connects different networks together. It has one IP address per network it connects to, and uses a routing table to decide where to send each packet.
@@ -71,11 +71,13 @@ The subject provided by 42 was used as a primary resource throughout the develop
 
 Additional external resources (such as tutorials and technical articles) were consulted to reinforce understanding and will be listed in this section:
 
-- TCP/IP adressing
-- Subnet masks
-- Default gateways
-- Routers and switches
-- OSI layers
+Additional external resources (such as tutorials and technical articles) were consulted to reinforce understanding and will be listed in this section:
+
+- TCP/IP adressing and OSI layers: https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/
+- Routers VS switches in a minute: https://www.cisco.com/site/us/en/learn/topics/small-business/network-switch-vs-router.html
+- Subnet masks: https://www.youtube.com/watch?v=s_Ntt6eTn94&list=PLCXqoZAc8-tzD5N5oCyIyEcMg_NDs6o7C
+- Default gateway explained in a minute in Spanish: https://www.youtube.com/shorts/RVxJoZM1jsQ
+- A very useful NetPractice Tutorial: https://www.youtube.com/watch?v=pwjAyiscts8&t=94s
 
 During the development of this project, AI was used as a learning support tool, mainly to:
 

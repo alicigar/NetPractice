@@ -80,8 +80,8 @@ Additional external resources (such as tutorials and technical articles) were co
 
 During the development of this project, AI was used as a learning support tool, mainly to:
 
--Clarify theoretical concepts related to networking, such as TCP/IP addressing, subnetting, routing tables, and the OSI model.
--Assist in writing and improving the project documentation.
--Help formulate questions and understand how the exercises work, without generating or copying solutions directly.
+- Clarify theoretical concepts related to networking, such as TCP/IP addressing, subnetting, routing tables, and the OSI model.
+- Assist in writing and improving the project documentation.
+- Help formulate questions and understand how the exercises work, without generating or copying solutions directly.
 
 All AI-assisted content was reviewed, fully understood and validated, and all final design and implementation decisions were made consciously and responsibly. The project's code was entirely written and tested by me.
